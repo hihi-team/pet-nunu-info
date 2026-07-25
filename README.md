@@ -12,6 +12,8 @@ Pet đi lại, nhảy, leo mép màn hình và ngủ trong một cửa sổ tron
 ![macOS](https://img.shields.io/badge/macOS-14%2B-black?style=for-the-badge&logo=apple)
 ![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6?style=for-the-badge&logo=windows)
 ![Linux](https://img.shields.io/badge/Linux-X11-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+&nbsp;
+![Languages](https://img.shields.io/badge/Web-22%20ng%C3%B4n%20ng%E1%BB%AF-8f7fdb?style=for-the-badge&logo=googletranslate&logoColor=white)
 
 </div>
 
@@ -52,9 +54,31 @@ Tải bản mới nhất ở **[Releases](https://github.com/hihi-team/pet-nunu-
 
 ---
 
+## 🌍 Ngôn ngữ
+
+**[Petnunu World](https://store.petnunu.com)** (web: kho pet, ví coin, Studio, forum, bảng xếp hạng)
+nói **22 ngôn ngữ**, tự chọn theo ngôn ngữ trình duyệt và đổi được bất cứ lúc nào ở cuối trang:
+
+| | | | |
+|---|---|---|---|
+| English | Tiếng Việt | 简体中文 | 繁體中文 |
+| 日本語 | 한국어 | Español | Português (BR) |
+| Français | Deutsch | Italiano | Русский |
+| Українська | Polski | Nederlands | Svenska |
+| Türkçe | العربية | हिन्दी | ไทย |
+| Bahasa Indonesia | Bahasa Melayu | | |
+
+Bản tiếng Ả Rập hiển thị bố cục phải-sang-trái (RTL) đầy đủ.
+Riêng **Điều khoản, Chính sách bảo mật và DMCA** chỉ có tiếng Anh + tiếng Việt —
+các ngôn ngữ khác đọc bản tiếng Anh (bản có hiệu lực).
+
+Trong app: **Windows/Linux** có tiếng Anh + tiếng Việt; **macOS** hiện chỉ có tiếng Anh.
+
+---
+
 ## 🌐 Liên kết
 
-- 🏠 Cộng đồng **Petnunu World** — kho pet, forum, leaderboard *(web)*
+- 🏠 **[Petnunu World](https://store.petnunu.com)** — kho pet, forum, leaderboard, ví coin *(web, 22 ngôn ngữ)*
 - 📝 **[Changelog / What's new](https://github.com/hihi-team/pet-nunu-info/releases)**
 
 ---
@@ -66,6 +90,9 @@ Bản build được phát hành công khai tại đây; mã nguồn giữ riên
 
 **Bản Windows/Linux có đủ tính năng như macOS không?**
 Dùng chung server, tài khoản, ví và format pet pack. Bản macOS (Swift) là bản gốc; bản Windows/Linux (Tauri) đang tiến tới parity đầy đủ.
+
+**App có tiếng Việt không?**
+Có. Web hỗ trợ 22 ngôn ngữ (gồm tiếng Việt), app Windows/Linux có tiếng Anh + tiếng Việt. Bản macOS hiện chỉ có tiếng Anh.
 
 **Có tốn phí không?**
 Tải & dùng miễn phí. Một số vật phẩm trong app có thể mua bằng coin.
