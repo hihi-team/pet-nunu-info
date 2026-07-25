@@ -28,10 +28,7 @@ Tải bản mới nhất ở **[Releases](https://github.com/hihi-team/pet-nunu-
 | 🐧 **Linux** (X11) | `Petnunu_*.AppImage` · `.deb` | AppImage: `chmod +x` rồi chạy · `.deb`: `sudo dpkg -i` |
 
 ### Ghi chú lần đầu mở
-- **macOS** — app phân phối ngoài App Store: **chuột phải → Open → Open**. Nếu báo *"is damaged"*:
-  ```bash
-  xattr -dr com.apple.quarantine /Applications/Petnunu.app
-  ```
+- **macOS** — app đã **ký Developer ID + notarize** nên mở thẳng như app bình thường (double-click), không cảnh báo Gatekeeper.
 - **Windows** — SmartScreen có thể hiện *"Windows protected your PC"* → **More info → Run anyway** (app chưa mua chứng chỉ ký số).
 - **Linux** — hỗ trợ tốt nhất trên **X11**. Trên **GNOME Wayland**, hãy đăng nhập phiên **"Xorg/X11"** để pet định vị & luôn-nổi-trên-cùng hoạt động đúng.
 
