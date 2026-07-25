@@ -2,10 +2,11 @@
 
 # 🐾 Petnunu
 
-**Thú cưng ảo sống trên desktop của bạn — macOS · Windows · Linux.**
+**A virtual pet living on your desktop — macOS · Windows · Linux.**
 
-Pet đi lại, nhảy, leo mép màn hình và ngủ trong một cửa sổ trong suốt nổi trên mọi app —
-điều khiển từ khay hệ thống, kèm Pomodoro & focus mode để bạn làm việc vui hơn.
+Your pet walks, jumps, climbs the edges of your screen and naps inside a transparent
+window that floats above every app — driven from the system tray, with Pomodoro &
+focus mode so work feels a little lighter.
 
 [![Download](https://img.shields.io/github/v/release/hihi-team/pet-nunu-info?label=Download&style=for-the-badge&color=ff8fab)](https://github.com/hihi-team/pet-nunu-info/releases/latest)
 &nbsp;
@@ -13,51 +14,75 @@ Pet đi lại, nhảy, leo mép màn hình và ngủ trong một cửa sổ tron
 ![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6?style=for-the-badge&logo=windows)
 ![Linux](https://img.shields.io/badge/Linux-X11-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 &nbsp;
-![Languages](https://img.shields.io/badge/Web-22%20ng%C3%B4n%20ng%E1%BB%AF-8f7fdb?style=for-the-badge&logo=googletranslate&logoColor=white)
+![Languages](https://img.shields.io/badge/Web-22%20languages-8f7fdb?style=for-the-badge&logo=googletranslate&logoColor=white)
+
+**English** ·
+[Tiếng Việt](README.vi.md) ·
+[简体中文](README.zh-Hans.md) ·
+[繁體中文](README.zh-Hant.md) ·
+[日本語](README.ja.md) ·
+[한국어](README.ko.md) ·
+[Español](README.es.md) ·
+[Português (BR)](README.pt-BR.md) ·
+[Français](README.fr.md) ·
+[Deutsch](README.de.md) ·
+[Italiano](README.it.md) ·
+[Русский](README.ru.md) ·
+[Українська](README.uk.md) ·
+[Polski](README.pl.md) ·
+[Nederlands](README.nl.md) ·
+[Svenska](README.sv.md) ·
+[Türkçe](README.tr.md) ·
+[العربية](README.ar.md) ·
+[हिन्दी](README.hi.md) ·
+[ไทย](README.th.md) ·
+[Bahasa Indonesia](README.id.md) ·
+[Bahasa Melayu](README.ms.md)
 
 </div>
 
 ---
 
-## ⬇️ Tải về
+## ⬇️ Download
 
-Tải bản mới nhất ở **[Releases](https://github.com/hihi-team/pet-nunu-info/releases/latest)** rồi chọn file theo hệ điều hành:
+Grab the latest build from **[Releases](https://github.com/hihi-team/pet-nunu-info/releases/latest)**, then pick the file for your system:
 
-| Hệ điều hành | File tải | Cài đặt |
+| System | File | Install |
 |---|---|---|
-| 🍎 **macOS** 14+ | `Petnunu-macOS-*.dmg` (hoặc `.zip`) | Mở `.dmg` → kéo **Petnunu.app** vào **Applications** |
-| 🪟 **Windows** 10/11 | `Petnunu_*-setup.exe` (hoặc `.msi`) | Chạy file cài đặt → next → xong |
-| 🐧 **Linux** (X11) | `Petnunu_*.AppImage` · `.deb` | AppImage: `chmod +x` rồi chạy · `.deb`: `sudo dpkg -i` |
+| 🍎 **macOS** 14+ | `Petnunu-macOS-*.dmg` (or `.zip`) | Open the `.dmg` → drag **Petnunu.app** into **Applications** |
+| 🪟 **Windows** 10/11 | `Petnunu_*-setup.exe` (or `.msi`) | Run the installer → next → done |
+| 🐧 **Linux** (X11) | `Petnunu_*.AppImage` · `.deb` | AppImage: `chmod +x` then run · `.deb`: `sudo dpkg -i` |
 
-### Ghi chú lần đầu mở
-- **macOS** — app đã **ký Developer ID + notarize** nên mở thẳng như app bình thường (double-click), không cảnh báo Gatekeeper.
-- **Windows** — SmartScreen có thể hiện *"Windows protected your PC"* → **More info → Run anyway** (app chưa mua chứng chỉ ký số).
-- **Linux** — hỗ trợ tốt nhất trên **X11**. Trên **GNOME Wayland**, hãy đăng nhập phiên **"Xorg/X11"** để pet định vị & luôn-nổi-trên-cùng hoạt động đúng.
+### First launch
+- **macOS** — the app is **signed with a Developer ID and notarized**, so it opens like any normal app (double-click), no Gatekeeper warning.
+- **Windows** — SmartScreen may show *"Windows protected your PC"* → **More info → Run anyway** (we haven't bought a code-signing certificate yet).
+- **Linux** — best supported on **X11**. On **GNOME Wayland**, log into an **"Xorg/X11"** session so the pet can position itself and stay always-on-top.
 
-**Yêu cầu:** macOS 14 (Sonoma)+ · Windows 10/11 · Linux desktop chạy X11/XWayland.
-
----
-
-## ✨ Tính năng
-
-- 🐣 **Pet overlay** — đi/nhảy/ngủ, leo & bám mép màn hình, nhìn/đi theo con trỏ, kéo thả tự do.
-- 💖 **Chăm sóc & cảm xúc** — cho ăn, vuốt ve, chơi, ru ngủ; chỉ số happiness / energy / hunger / affection.
-- 🪙 **Coin, nhiệm vụ & thành tựu** — daily mission, achievement, ví coin.
-- 🍅 **Pomodoro & Focus mode** — nhắc nghỉ / uống nước / nghỉ mắt, thống kê focus (ngày/tuần, streak).
-- 🛒 **Pet Store** — mua thêm pet bằng coin.
-- 🌱 **Nuôi pet lên level** + bảng xếp hạng cộng đồng.
-- 🎨 **Petnunu Studio** — tự tạo pet.
-- 📦 **Import pet pack** của riêng bạn.
-- 🖥️ **Multi-monitor**, khay hệ thống (tray/menu bar), onboarding, âm thanh.
-
-> Tài khoản, ví coin, cửa hàng và pet pack **dùng chung** giữa cả ba nền tảng.
+**Requirements:** macOS 14 (Sonoma)+ · Windows 10/11 · a Linux desktop running X11/XWayland.
 
 ---
 
-## 🌍 Ngôn ngữ
+## ✨ Features
 
-**[Petnunu World](https://store.petnunu.com)** (web: kho pet, ví coin, Studio, forum, bảng xếp hạng)
-nói **22 ngôn ngữ**, tự chọn theo ngôn ngữ trình duyệt và đổi được bất cứ lúc nào ở cuối trang:
+- 🐣 **Desktop pet overlay** — walks, jumps, sleeps, climbs and clings to screen edges, follows your cursor, drag it anywhere.
+- 💖 **Care & emotions** — feed, pet, play, tuck it in; happiness / energy / hunger / affection stats.
+- 🪙 **Coins, quests & achievements** — daily missions, achievements, coin wallet.
+- 🍅 **Pomodoro & focus mode** — break / water / eye-rest reminders, focus stats (daily, weekly, streaks).
+- 🛒 **Pet Store** — unlock more pets with coins.
+- 🌱 **Raise pets to level up** + a community leaderboard.
+- 🎨 **Petnunu Studio** — create your own pet.
+- 📦 **Import your own pet packs**.
+- 🖥️ **Multi-monitor**, tray / menu bar, onboarding, sound.
+
+> Your account, coin wallet, store and pet packs are **shared across all three platforms**.
+
+---
+
+## 🌍 Languages
+
+**[Petnunu World](https://www.petnunu.com)** — the web side (pet catalog, coin wallet, Studio,
+forum, leaderboard) — speaks **22 languages**, picked automatically from your browser and
+switchable any time at the bottom of the page:
 
 | | | | |
 |---|---|---|---|
@@ -68,37 +93,38 @@ nói **22 ngôn ngữ**, tự chọn theo ngôn ngữ trình duyệt và đổi 
 | Türkçe | العربية | हिन्दी | ไทย |
 | Bahasa Indonesia | Bahasa Melayu | | |
 
-Bản tiếng Ả Rập hiển thị bố cục phải-sang-trái (RTL) đầy đủ.
-Riêng **Điều khoản, Chính sách bảo mật và DMCA** chỉ có tiếng Anh + tiếng Việt —
-các ngôn ngữ khác đọc bản tiếng Anh (bản có hiệu lực).
+Arabic gets a full right-to-left layout.
+The **Terms, Privacy Policy and DMCA** pages exist only in English and Vietnamese —
+every other language reads the English version, which is the binding one.
 
-Trong app: **Windows/Linux** có tiếng Anh + tiếng Việt; **macOS** hiện chỉ có tiếng Anh.
+In the app: **Windows/Linux** ship English + Vietnamese; **macOS** is English-only for now.
 
 ---
 
-## 🌐 Liên kết
+## 🌐 Links
 
-- 🏠 **[Petnunu World](https://store.petnunu.com)** — kho pet, forum, leaderboard, ví coin *(web, 22 ngôn ngữ)*
+- 🏠 **[Petnunu World](https://www.petnunu.com)** — pet catalog, forum, leaderboard, coin wallet *(web, 22 languages)*
+- 🛒 **[Pet Store](https://www.petnunu.com/store)** — browse and adopt pets
 - 📝 **[Changelog / What's new](https://github.com/hihi-team/pet-nunu-info/releases)**
 
 ---
 
 ## ❓ FAQ
 
-**App có mã nguồn mở không?**
-Bản build được phát hành công khai tại đây; mã nguồn giữ riêng tư. Repo này chỉ dùng để phân phối app.
+**Is the app open source?**
+The builds are published here publicly; the source stays private. This repo exists to distribute the app.
 
-**Bản Windows/Linux có đủ tính năng như macOS không?**
-Dùng chung server, tài khoản, ví và format pet pack. Bản macOS (Swift) là bản gốc; bản Windows/Linux (Tauri) đang tiến tới parity đầy đủ.
+**Do the Windows/Linux builds have everything macOS has?**
+They share the same server, account, wallet and pet-pack format. The macOS build (Swift) came first; the Windows/Linux build (Tauri) is working its way to full parity.
 
-**App có tiếng Việt không?**
-Có. Web hỗ trợ 22 ngôn ngữ (gồm tiếng Việt), app Windows/Linux có tiếng Anh + tiếng Việt. Bản macOS hiện chỉ có tiếng Anh.
+**Is my language supported?**
+The web speaks 22 languages. The Windows/Linux app ships English + Vietnamese; the macOS app is English-only for now.
 
-**Có tốn phí không?**
-Tải & dùng miễn phí. Một số vật phẩm trong app có thể mua bằng coin.
+**Does it cost anything?**
+Downloading and using it is free. Some in-app items can be bought with coins.
 
-**Báo lỗi / góp ý?**
-Mở **[Issue](https://github.com/hihi-team/pet-nunu-info/issues)** tại repo này.
+**Found a bug / have an idea?**
+Open an **[Issue](https://github.com/hihi-team/pet-nunu-info/issues)** in this repo.
 
 ---
 
