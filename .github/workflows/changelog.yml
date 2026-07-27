@@ -1,0 +1,26 @@
+# `changelog.json` ở root là bản build từ thư mục `changelog/`. Web đọc thẳng
+# file build đó lúc chạy, nên quên chạy script = trang "Có gì mới" đứng im dù
+# thư mục đã có bản mới. Job này chặn đúng chỗ đó.
+name: changelog
+
+on:
+  push:
+    paths:
+      - 'changelog/**'
+      - 'changelog.json'
+      - 'scripts/build_changelog.py'
+      - '.github/workflows/changelog.yml'
+  pull_request:
+    paths:
+      - 'changelog/**'
+      - 'changelog.json'
+      - 'scripts/build_changelog.py'
+      - '.github/workflows/changelog.yml'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: changelog.json phải khớp thư mục changelog/
+        run: python3 scripts/build_changelog.py --check
