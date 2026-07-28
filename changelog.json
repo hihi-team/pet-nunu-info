@@ -1,5 +1,96 @@
 [
   {
+    "version": "1.3.0",
+    "date": "2026-07-28",
+    "title": {
+      "en": "Windows and Linux catch up: pets that talk, remind and grow",
+      "vi": "Windows và Linux bắt kịp: pet biết nói, biết nhắc và lớn lên mỗi ngày"
+    },
+    "note": {
+      "en": "This is the big one for Windows and Linux — almost everything the Mac app could do, your pet can now do there too. The Mac app gets the fixes and a Cancel button while a pet is being made.",
+      "vi": "Đây là bản lớn dành cho Windows và Linux — gần như mọi thứ bản Mac làm được thì bây giờ bên đó cũng làm được. Bản Mac nhận các bản vá và nút Huỷ khi đang tạo pet."
+    },
+    "entries": [
+      {
+        "kind": "new",
+        "text": {
+          "en": "Your pet talks now. Little speech bubbles when it is hungry, when you start a focus round, when you feed it — and the odd bit of small talk. You choose how chatty it is, and it stays quiet during focus and at night.",
+          "vi": "Pet biết nói rồi. Những bong bóng thoại nho nhỏ lúc bé đói, lúc bạn bắt đầu một vòng tập trung, lúc bạn cho ăn — và thỉnh thoảng là vài câu tán gẫu. Bạn chọn mức nói nhiều hay ít; bé tự im khi bạn đang tập trung và lúc đêm khuya."
+        }
+      },
+      {
+        "kind": "new",
+        "text": {
+          "en": "Reminders now arrive from your pet instead of a cold notification: drink water, stand up, rest your eyes, lunch, wrap up the day. Tap Done right in the bubble and you get a coin for it. Some reminders can even carry today's weather or fuel and gold prices.",
+          "vi": "Lời nhắc giờ do chính pet mang tới thay vì một thông báo khô khan: uống nước, đứng dậy, nghỉ mắt, ăn trưa, kết thúc ngày. Bấm Xong ngay trong bong bóng là được thưởng coin. Một số lời nhắc còn kèm được thời tiết, giá xăng và giá vàng hôm nay."
+        }
+      },
+      {
+        "kind": "new",
+        "text": {
+          "en": "Coins on Windows and Linux: open the app each day for your daily coins and streak, finish the small daily missions, unlock achievements. The Home tab finally shows real numbers instead of zeros.",
+          "vi": "Coin trên Windows và Linux: mở app mỗi ngày là có coin điểm danh và chuỗi ngày, làm nốt mấy nhiệm vụ nhỏ trong ngày, mở khoá thành tựu. Trang chính rốt cuộc cũng hiện số thật thay vì toàn số 0."
+        }
+      },
+      {
+        "kind": "new",
+        "text": {
+          "en": "Focus stats are back on Windows and Linux — sessions, minutes, day streak and a 14-day chart. Sessions you stop early count too.",
+          "vi": "Thống kê tập trung đã có trên Windows và Linux — số phiên, số phút, chuỗi ngày và biểu đồ 14 ngày. Phiên bạn dừng giữa chừng cũng được tính."
+        }
+      },
+      {
+        "kind": "new",
+        "text": {
+          "en": "Raise your pets from the app on Windows and Linux: feed them with coins to level up, pat them once a day, send a maxed-out pet to prestige, and collect the coins they earn for you.",
+          "vi": "Nuôi pet ngay trong app trên Windows và Linux: cho ăn bằng coin để lên cấp, mỗi ngày vuốt ve một lần, cho bé đạt cấp tối đa thăng hoa, và nhận số coin bé kiếm được cho bạn."
+        }
+      },
+      {
+        "kind": "new",
+        "text": {
+          "en": "A short welcome tour the first time you open the app, and pets make little sounds again when they jump, land or eat (off by default).",
+          "vi": "Có màn giới thiệu ngắn ở lần mở app đầu tiên, và pet lại có tiếng động nho nhỏ khi nhảy, tiếp đất hay ăn (mặc định tắt)."
+        }
+      },
+      {
+        "kind": "new",
+        "text": {
+          "en": "Add a pack from your own computer — pick a folder or a .zip and it is checked before it is installed. Packs drawn as one big sprite sheet now show up properly too.",
+          "vi": "Thêm gói pet từ máy của bạn — chọn thư mục hoặc file .zip, chúng tôi kiểm tra trước rồi mới cài. Gói vẽ theo kiểu một tấm sprite sheet lớn nay cũng hiện đúng."
+        }
+      },
+      {
+        "kind": "new",
+        "text": {
+          "en": "Making a pet from your own photo now works on Windows and Linux, and on every platform you can cancel a pet while it is being made — cancel in the first minute and your coins come straight back.",
+          "vi": "Tạo pet từ ảnh của bạn nay chạy được trên Windows và Linux, và trên mọi nền tảng bạn đều huỷ được một pet đang tạo dở — huỷ trong phút đầu là coin về ví ngay."
+        }
+      },
+      {
+        "kind": "new",
+        "text": {
+          "en": "On the website you can now manage your account in one place: change your display name, change your password while you still remember it, or delete the account for good.",
+          "vi": "Trên website bạn quản lý được tài khoản ở một chỗ: đổi tên hiển thị, đổi mật khẩu khi vẫn còn nhớ nó, hoặc xoá hẳn tài khoản."
+        }
+      },
+      {
+        "kind": "fix",
+        "text": {
+          "en": "Your daily check-in coins really land in your wallet now. If you were signed in, the app used to hand them out on screen and then quietly lose them — on every platform. Coins earned while you are offline are kept and sent the next time you sign in.",
+          "vi": "Coin điểm danh hằng ngày giờ thật sự vào ví. Nếu bạn đang đăng nhập, trước đây app khoe coin trên màn hình rồi lặng lẽ làm mất — trên mọi nền tảng. Coin kiếm được lúc không có mạng cũng được giữ lại và gửi đi ở lần đăng nhập sau."
+        }
+      },
+      {
+        "kind": "fix",
+        "text": {
+          "en": "Windows and Linux: reminders no longer arrive twice, notifications speak your language, plugging in or unplugging a monitor no longer makes pets disappear, and the settings window stops undoing what you just changed from the tray menu.",
+          "vi": "Windows và Linux: lời nhắc không còn tới hai lần, thông báo đã nói đúng ngôn ngữ của bạn, cắm hay rút màn hình không làm pet biến mất nữa, và cửa sổ cài đặt thôi ghi đè thứ bạn vừa đổi ở menu khay hệ thống."
+        }
+      }
+    ]
+  },
+  {
     "version": "1.2.3",
     "date": "2026-07-28",
     "title": {
