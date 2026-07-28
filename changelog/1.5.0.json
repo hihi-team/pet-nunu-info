@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "date": "2026-07-28",
+  "seq": 4,
+  "title": {
+    "en": "An email when your pet is ready",
+    "vi": "Có email khi pet làm xong"
+  },
+  "note": {
+    "en": "Making a pet takes a few minutes. Now you don't have to sit and watch — we email you when it's done.",
+    "vi": "Tạo pet mất vài phút. Giờ bạn không phải ngồi nhìn màn hình chờ — xong là có email."
+  },
+  "entries": [
+    {
+      "kind": "new",
+      "text": {
+        "en": "You get an email when your pet is finished — and when it isn't, so you're not left waiting.",
+        "vi": "Bạn nhận email khi pet làm xong — và cả khi không thành, để khỏi ngồi đợi vô ích."
+      }
+    },
+    {
+      "kind": "improve",
+      "text": {
+        "en": "When lots of people are creating pets, we say your pet is queued and roughly how long.",
+        "vi": "Khi nhiều người cùng tạo pet, chúng tôi báo pet của bạn đang xếp hàng và khoảng bao lâu."
+      }
+    },
+    {
+      "kind": "improve",
+      "text": {
+        "en": "Pets can be made on several machines at once, so busy evenings clear faster.",
+        "vi": "Pet làm được trên nhiều máy cùng lúc, nên tối đông người sẽ nhanh hơn."
+      }
+    },
+    {
+      "kind": "fix",
+      "text": {
+        "en": "If a machine drops out mid-job, another picks it up. If it truly fails, your coins come back.",
+        "vi": "Máy rớt giữa chừng thì máy khác nhận tiếp. Hỏng hẳn thì coin trả về ví bạn."
+      }
+    }
+  ]
+}
