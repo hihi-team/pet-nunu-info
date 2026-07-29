@@ -1,0 +1,42 @@
+{
+  "version": "1.5.1",
+  "date": "2026-07-29",
+  "title": {
+    "en": "Your pets can now get updates",
+    "vi": "Pet của bạn nhận được bản cập nhật"
+  },
+  "note": {
+    "en": "When a pet you already have is redrawn or fixed, the app tells you and updates it in one click — free, no coins.",
+    "vi": "Khi một con pet bạn đang có được vẽ lại hoặc sửa lỗi, app sẽ báo và cập nhật chỉ bằng một cú bấm — miễn phí, không tốn coin."
+  },
+  "entries": [
+    {
+      "kind": "new",
+      "text": {
+        "en": "Packs you own show an Update button when a newer version is out. Nothing downloads until you say so.",
+        "vi": "Pack bạn đang có sẽ hiện nút Cập nhật khi có bản mới. Không tự tải gì cho tới khi bạn đồng ý."
+      }
+    },
+    {
+      "kind": "improve",
+      "text": {
+        "en": "After an update, the pet on your desktop changes to the new artwork straight away — no restart.",
+        "vi": "Cập nhật xong, con pet trên màn hình đổi sang hình mới ngay — không phải khởi động lại app."
+      }
+    },
+    {
+      "kind": "improve",
+      "text": {
+        "en": "Updating a pet never costs coins and never changes what you already own.",
+        "vi": "Cập nhật pet không bao giờ tốn coin và không đụng gì tới những thứ bạn đã sở hữu."
+      }
+    },
+    {
+      "kind": "fix",
+      "text": {
+        "en": "Freshly published pets are served reliably right after they go up, instead of taking a few minutes to settle.",
+        "vi": "Pet vừa lên kệ là tải được ngay và ổn định, thay vì phải đợi vài phút mới yên."
+      }
+    }
+  ]
+}
